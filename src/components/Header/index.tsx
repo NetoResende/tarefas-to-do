@@ -1,13 +1,7 @@
-import style from "./Header.module.css"
-
-interface HeaderProps {
-    children: React.ReactNode;
+import style from "./styles.module.css"
+type HeadingProps = {
+    children: React.ReactNode
 }
-
-export function Header( {children}: HeaderProps){ 
-    return (
-        <>
-            <h1 className={style.heading}> {children}</h1>
-        </>
-    )
+export function Header({children}: HeadingProps){ 
+    return <h1 className={style.heading}> {children}</h1>
 }
