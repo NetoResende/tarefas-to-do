@@ -3,7 +3,7 @@ import style from "./styles.module.css";
 
 export function Menu() {
   return (
-    <div className={style.menu}>
+    <nav className={style.menu}>
       <a href="##" className={style.menuLink}>
         < HouseIcon/>
       </a>
@@ -16,6 +16,6 @@ export function Menu() {
       <a href="##" className={style.menuLink}>
         <SunIcon/>
       </a>
-    </div>
+    </nav>
   );
 }

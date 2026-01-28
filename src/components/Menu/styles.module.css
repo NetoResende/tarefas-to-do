@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.8rem;
+    gap: 1.6rem;
 }  
 .menuLink {
     font-size: 6.3rem;
@@ -15,12 +15,12 @@
     transition: all 0.5ms ease-in-out;
     border-radius: 0.8rem;
     padding: 1.2rem;
-
+    
     &:hover {
         filter: brightness(80%);
     }
 } 
 .menuLink svg {
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 4.6rem;
+    height: 4.6rem;
 }
