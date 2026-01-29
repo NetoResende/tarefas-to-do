@@ -21,7 +21,13 @@ export function App() {
       <Container>
         <form className="form">
           <div className="formRow">
-            <DefaultInput id="inputId" type ="text" />
+            <DefaultInput 
+              id="inputId" 
+              type ="text" 
+              labelText="task" 
+              title="Meu título" 
+              placeholder="Digite algo"
+            />
           </div>
           <div className="formRow">
             <p>Lorem ipsum dolor sit amet.</p>
@@ -33,7 +39,6 @@ export function App() {
           <div className="formRow">
             <button>Enviar</button>
           </div>
-
         </form>
       </Container>
       
