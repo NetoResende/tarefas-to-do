@@ -1,0 +1,26 @@
+.cycles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.8rem;
+}  
+.cyclesContents {
+    display: flex;
+    gap: 0.8rem;
+}
+.cycle {
+    width: 2rem;
+    height: 2rem;
+    background: var(--primary);
+    border-radius: 50%;
+}
+.cycleWorkTime{
+    background: var(--warning);
+}
+.cycleBreakTime {
+    background: var(--primary);
+}
+.cycleBreakLongTime {
+    background: var(--info);
+}
