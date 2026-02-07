@@ -4,15 +4,15 @@ import { Menu } from "./components/Menu";
 import { Contador } from "./components/Contador";
 import { DefaultInput } from "./components/DefaultInput";
 import { DefaultButton } from "./components/DefaultButton";
-
+import { Footer } from "./components/Footer";
 import { Cycles } from "./components/Cycles";
-import { PlayCircleIcon, StopCircleIcon } from "lucide-react";
+import { PlayCircleIcon } from "lucide-react";
 
 import "./styles/Theme.css";
 import "./styles/Global.css";
-import { Footer } from "./components/Footer";
 
 export function App() {
+
   return (
     <>
       <Container>
@@ -46,11 +46,9 @@ export function App() {
           </div>
         </form>
       </Container>
-
       <Container>
         <Footer/>
       </Container>
-      
     </>
   );
 }
